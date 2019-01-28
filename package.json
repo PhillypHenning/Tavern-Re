@@ -1,0 +1,16 @@
+{
+  "name": "tavern-re",
+  "version": "1.0.0",
+  "description": "Welcome to the Tavern! Here you'll find a small project I've begun to help DM's quickly find and create content for their campaigns. ",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phil Henning",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
