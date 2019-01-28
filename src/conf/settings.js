@@ -1,4 +1,18 @@
 const path = require('path');
 
-const ROUTES_HOME = require(os.path.join(__dirname, 'routes'));
-const VIEWS_HOME = require(os.path.join(__dirname, 'views'));
+const HOME_DIR = path.join(__dirname, '..')
+
+const ROUTES_HOME = path.join(HOME_DIR, 'routes');
+const VIEWS_HOME = path.join(HOME_DIR, 'views');
+
+
+// =+ Test assest +=
+const user = {
+    'name': 'test user',
+    'username': 'test username',
+    'phone': '123 456 7890',
+    'email': 'test_user@gmail.com',
+    'address': '123 street'
+};
+
+module.exports = { user }

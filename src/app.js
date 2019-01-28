@@ -5,17 +5,7 @@ const util = require('util'); // Provides timestamp
 const express = require('express');
 const settings = require('./conf/settings');
 // const { accounts, users, writeJSON } = require('./data');
-
-util.log(`Checking stuff: ${ __dirname }`);
-
-// =+ Test assest +=
-const user = {
-    'name': 'test user',
-    'username': 'test username',
-    'phone': '123 456 7890',
-    'email': 'test_user@gmail.com',
-    'address': '123 street'
-};
+user = settings.user
 
 
 // =+Configuration+=
